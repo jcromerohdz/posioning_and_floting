@@ -26,3 +26,32 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
 }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+nav{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  
+  border-bottom-style: solid;
+  border-bottom-color:#f1eeee;
+  border-bottom-width: 1px;
+  z-index: 3;
+}
