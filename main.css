@@ -226,3 +226,47 @@ nav>div{
   #resize-figure figcaption{
     margin-top: 370px;
   }
+  .figcaption-separator{
+    width: 50px;
+    height: 1px;
+    background: #333;
+    margin: 20px 0;
+    
+  }
+  
+  .image-space{
+    height: 200px;
+  }
+  .text-container{
+    position: relative;
+    width: 180px;
+    float: left;
+    z-index: 2;
+    top: 140px;
+    font-size: 14px;
+    color: #2f2f2f;
+    line-height: 1.2;
+  }
+  .text-container strong{
+    font-weight: 600;
+  }
+  .img-floating{
+    position: relative;
+    margin-top: 10px;
+  }
+  .text-separator{
+    height: 150px;
+    position: relative;
+    clear: both;
+  }
+  .video-container{
+    margin: 40px 0;
+  }
+  .video-container div>p:first-child{
+    font-size: 1em;
+  }
+  .video-container p{
+    font-size: 0.8em;
+    color: #666;
+  }
+  
