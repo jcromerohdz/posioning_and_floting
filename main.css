@@ -99,8 +99,6 @@ nav>div{
     padding: 8px 9px 6px;
   }
   
-  
-  
   main{
     padding-top: 53px;
     width: 600px;
@@ -111,4 +109,50 @@ nav>div{
     position: relative;
     z-index: 1;
     background-color: white;
+  }
+
+  section>header div h1{
+    font-size: 2rem;
+    font-family: 'Sriracha', cursive;
+    margin: 30px;
+  
+  }
+  
+  h2{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 15px 0
+  }
+  section>header figure>img{
+    width: 800px;
+  }
+  section>header figure{
+    display: block;
+    position: relative;
+    left: -100px;
+  }
+  figcaption, footer p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+  }
+  figcaption>span{
+    font-family: 'Slabo 27px', serif;
+    color: #888888;
+  }
+  .author{
+    width: 50%;
+    float: left;
+  }
+  .author h1{
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    margin-left: 0px; 
+    font-weight: 600;
+  }
+  .author p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+  
   }
