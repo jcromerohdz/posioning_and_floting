@@ -194,3 +194,35 @@ nav>div{
     font-size: 19px;
     font-family: 'Hind Madurai', sans-serif;
   }
+
+  .resize-section{
+    overflow: hidden;
+  }
+  #resize-img{
+    width: 720px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  
+  }
+  #resize-figure{
+    width: 720px;
+    position: static;
+    margin: 15px 0 20px; 
+  
+  }
+  #resize-figure h2{  
+    font-size: 18px;
+    font-family: 'Noto Sans HK', sans-serif;
+    margin-bottom: 8px;
+  }
+  #resize-figure p{
+    color: #666666;
+    font-family: 'EB Garamond', serif;
+    font-size: 14px;
+  }
+  
+  #resize-figure figcaption{
+    margin-top: 370px;
+  }
