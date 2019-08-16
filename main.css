@@ -55,3 +55,33 @@ nav{
   border-bottom-width: 1px;
   z-index: 3;
 }
+
+nav>div{
+    width: 30%;
+  }
+  
+  .left-items{
+    display:flex;
+    align-items: center;
+  }
+  
+  .left-items ul{
+    display:flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .left-items li{
+    margin: 8px 15px;;
+  }
+  
+  .center-items{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-items>div{
+    width: 50%;
+  }
