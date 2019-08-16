@@ -156,3 +156,41 @@ nav>div{
     font-size: 0.8em;
   
   }
+  .article-social-media{
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+  }
+  .article-social-media div{
+    float: right;
+    
+  }
+  .article-social-media ul{
+    display: flex;
+  }
+  .article-social-media li{
+    padding: 10px 10px;
+  }
+  .header-clear{
+    clear: both;
+  }
+  .header-article{
+    margin-bottom: 20px;
+  }
+  
+  figure>img{
+    width: 920px;
+  
+  }
+  .article-content>figure{
+    display: block;
+    position: relative;
+    left: -100px;
+  }
+  
+  .article-content>p{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-family: 'Hind Madurai', sans-serif;
+  }
