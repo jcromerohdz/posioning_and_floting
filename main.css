@@ -85,3 +85,30 @@ nav>div{
   .center-items>div{
     width: 50%;
   }
+  .right-items div{
+    float: right;
+    width: 55%;
+    padding: 10px 5px;
+  }
+  
+  .btn{
+    border-radius: 4px;
+    background: #6288A5;
+    border: 1px solid #326891;
+    color: #fff;
+    padding: 8px 9px 6px;
+  }
+  
+  
+  
+  main{
+    padding-top: 53px;
+    width: 600px;
+    margin: auto;
+    
+  }
+  main>section{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+  }
