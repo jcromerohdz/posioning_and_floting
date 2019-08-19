@@ -306,3 +306,25 @@ nav>div{
     color: #999
   }
   
+
+  }
+  #cosmos-area{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 720px;
+    margin: 0 auto;
+    
+
+  }
+  #cosmos-area div{
+    background: red;
+    padding: 30px;
+  }
+  #cosmos-area div:nth-child(even)
+  {
+    background: #326891;
+
+
+  }
+
+  
