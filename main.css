@@ -186,6 +186,15 @@ nav>div{
   .resize-section{
     overflow: hidden;
   }
+
+  #space-fig{
+    margin-bottom:360px;
+  }
+
+  #space-authors{
+    margin-bottom:20px;
+  }
+
   #resize-img
   { 
     width: 720px;
@@ -201,6 +210,9 @@ nav>div{
     top: 10px;
     bottom: 300px;
   }
+  
+  
+  
 
   #resize-figure{
     width: 720px;
@@ -228,6 +240,11 @@ nav>div{
     background: #333;
     margin: 20px 0;
     
+  }
+
+  #figcap{
+    display: block;
+    top: 500px;
   }
   
   .image-space{
