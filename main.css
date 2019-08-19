@@ -9,7 +9,8 @@
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
+  
 }
 body {
   line-height: 1;
@@ -128,10 +129,12 @@ nav>div{
   figcaption>span{
     font-family: 'Slabo 27px', serif;
     color: #888888;
+    
   }
   .author{
     width: 50%;
     float: left;
+
   }
   .author h1{
     font-size: 1.3em;
@@ -184,12 +187,13 @@ nav>div{
   }
 
   .resize-section{
-    overflow: hidden;
+    overflow: auto;
+    resize: vertical;
   }
   #resize-img
   { 
     width: 720px;
-    position: absolute;
+    position: absolute;;
     top: 0;
     left: 0;
     z-index: 1;
@@ -198,13 +202,15 @@ nav>div{
   #resize-img-container{
     width: 720px;
     left: 2px;
+    height: 360px;
     top: 10px;
     bottom: 300px;
   }
 
   #resize-figure{
     width: 720px;
-    position: static;
+    position: absolute;
+    height: 480pc;
     margin: 15px 0 20px; 
   
   }
@@ -227,11 +233,12 @@ nav>div{
     height: 1px;
     background: #333;
     margin: 20px 0;
+    bottom: 1px;
     
   }
   
   .image-space{
-    height: 200px;
+    height: 100px;
   }
   .text-container{
     position: relative;
@@ -242,6 +249,7 @@ nav>div{
     font-size: 14px;
     color: #2f2f2f;
     line-height: 1.2;
+  
   }
   .text-container strong{
     font-weight: 600;
