@@ -190,6 +190,15 @@ nav>div{
     overflow: auto;
     resize: vertical;
   }
+
+  #space-fig{
+    margin-bottom:360px;
+  }
+
+  #space-authors{
+    margin-bottom:20px;
+  }
+
   #resize-img
   { 
     width: 720px;
@@ -206,6 +215,9 @@ nav>div{
     top: 10px;
     bottom: 300px;
   }
+  
+  
+  
 
   #resize-figure{
     width: 720px;
@@ -235,6 +247,11 @@ nav>div{
     margin: 20px 0;
     bottom: 1px;
     
+  }
+
+  #figcap{
+    display: block;
+    top: 500px;
   }
   
   .image-space{
