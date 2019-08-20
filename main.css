@@ -419,10 +419,7 @@ footer p {
   grid-template-columns: 33% 33% 33%;
   width: 880px;
   height: 350px;
-  margin: 0 200px;
-
-
-
+  /* margin: 0 350px; */
 }
 
 #editors-area div {
