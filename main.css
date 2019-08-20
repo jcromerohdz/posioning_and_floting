@@ -359,6 +359,27 @@ nav>div{
   }
   #second-column-cosmos div:nth-child(even){
   }
+#editors-area{
+  display: grid;
+  border-top-style: solid;
+  border-top-width: 1px;
+  grid-template-columns: 33% 33% 33% ;
+  width: 880px;
+  height: 350px;
+  margin: 0 auto;
+
+  
+
+}
+
+#editors-area div{
+  padding: 5px;
+  
+}
+#editors-area div:nth-child(even){
+
+}
+
 
  .link-square-img{
    height: 180px ;
@@ -366,6 +387,7 @@ nav>div{
  }
  .text-cosmos-area{
    text-align: left;
+   background: white;
  }
 
  #title-cosmos{
@@ -382,3 +404,6 @@ nav>div{
  }
 
  .link { color: black; }
+
+
+ 
