@@ -1,8 +1,20 @@
-* {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  /* font-size: 100%; */
   font: inherit;
   vertical-align: baseline;
 }
@@ -118,7 +130,6 @@ main {
   padding-top: 53px;
   width: 720px;
   margin: auto;
-
 }
 
 main>section {
@@ -128,7 +139,7 @@ main>section {
 }
 
 section>header div h1 {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-family: 'Sriracha', cursive;
   margin: 30px;
 
@@ -173,7 +184,6 @@ figcaption>span {
 .author h1 {
   font-size: 1.3em;
   margin-bottom: 5px;
-  margin-left: 0px;
   font-weight: 600;
 }
 
@@ -262,9 +272,6 @@ figure>img {
   top: 10px;
   bottom: 300px;
 }
-
-
-
 
 #resize-figure {
   width: 720px;
@@ -380,7 +387,6 @@ footer p {
 
 }
 
-#cosmos-area div:nth-child(even) {}
 
 #first-column-cosmos {
   display: grid;
@@ -395,8 +401,6 @@ footer p {
   padding: 5px;
 }
 
-#first-column-cosmos div:nth-child(even) {}
-
 #second-column-cosmos {
   display: grid;
   grid-template-columns: 100%;
@@ -410,7 +414,6 @@ footer p {
   padding: 3px;
 }
 
-#second-column-cosmos div:nth-child(even) {}
 
 #editors-area {
   display: grid;
@@ -427,7 +430,7 @@ footer p {
 
 }
 
-#editors-area div:nth-child(even) {}
+/* #editors-area div:nth-child(even) {} */
 
 
 .link-square-img {
