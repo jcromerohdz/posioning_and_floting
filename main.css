@@ -54,7 +54,7 @@ legend,
 table,
 caption,
 tbody,
-tfoot, 
+tfoot,
 thead,
 tr,
 th,
@@ -69,7 +69,7 @@ figcaption,
 footer,
 header,
 hgroup,
-menu, 
+menu,
 nav,
 output,
 ruby,
@@ -114,10 +114,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote :before,
+blockquote :after,
+q :before,
+q :after {
   content: '';
   content: none;
 }
@@ -278,7 +278,7 @@ figcaption > span {
   margin-bottom: 20px;
 }
 
-figure > img {
+figure>img {
   width: 920px;
 }
 
