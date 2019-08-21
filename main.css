@@ -31,7 +31,6 @@ menu,
 nav,
 section {
   display: block;
-
 }
 
 body {
@@ -98,7 +97,6 @@ nav>div {
 
 .left-items li {
   margin: 8px 15px;
-  ;
 }
 
 .center-items {
@@ -142,7 +140,6 @@ section>header div h1 {
   font-size: 1.3rem;
   font-family: 'Sriracha', cursive;
   margin: 30px;
-
 }
 
 h2 {
@@ -172,13 +169,11 @@ footer p {
 figcaption>span {
   font-family: 'Slabo 27px', serif;
   color: #888888;
-
 }
 
 .author {
   width: 50%;
   float: left;
-
 }
 
 .author h1 {
@@ -190,7 +185,6 @@ figcaption>span {
 .author p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.8em;
-
 }
 
 .article-social-media {
@@ -201,7 +195,6 @@ figcaption>span {
 
 .article-social-media div {
   float: right;
-
 }
 
 .article-social-media ul {
@@ -222,7 +215,6 @@ figcaption>span {
 
 figure>img {
   width: 920px;
-
 }
 
 .article-content>figure {
@@ -249,7 +241,6 @@ figure>img {
 
 #space-authors {
   margin-bottom: 420px;
-
 }
 
 #space-cosmos {
@@ -259,7 +250,6 @@ figure>img {
 #resize-img {
   width: 720px;
   position: absolute;
-  ;
   top: 0;
   left: 0;
   z-index: 1;
@@ -278,7 +268,6 @@ figure>img {
   position: absolute;
   height: 480pc;
   margin: 15px 0 20px;
-
 }
 
 #resize-figure h2 {
@@ -303,7 +292,6 @@ figure>img {
   background: #333;
   margin: 20px 0;
   bottom: 1px;
-
 }
 
 #figcap {
@@ -324,7 +312,6 @@ figure>img {
   font-size: 14px;
   color: #2f2f2f;
   line-height: 1.2;
-
 }
 
 .text-container strong {
@@ -373,8 +360,6 @@ footer p {
   color: #999;
 }
 
-
-
 #cosmos-area {
   display: grid;
   grid-template-columns: 80% 20%;
@@ -384,7 +369,6 @@ footer p {
 
 #cosmos-area div {
   padding: 4px;
-
 }
 
 
@@ -414,7 +398,6 @@ footer p {
   padding: 3px;
 }
 
-
 #editors-area {
   display: grid;
   border-top-style: solid;
@@ -427,11 +410,7 @@ footer p {
 
 #editors-area div {
   padding: 5px;
-
 }
-
-/* #editors-area div:nth-child(even) {} */
-
 
 .link-square-img {
   height: 180px;
@@ -440,7 +419,6 @@ footer p {
 
 .text-cosmos-area {
   text-align: left;
-
 }
 
 #title-cosmos {
