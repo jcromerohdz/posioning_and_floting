@@ -7,14 +7,13 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video{
+time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  /* font-size: 100%; */
   font: inherit;
   vertical-align: baseline;
 }
@@ -66,21 +65,19 @@ hr {
   border-width: 1px;
 }
 
-
 nav {
   position: fixed;
   display: flex;
   justify-content: space-between;
   width: 100%;
   background-color: white;
-
   border-bottom-style: solid;
   border-bottom-color: #f1eeee;
   border-bottom-width: 1px;
   z-index: 3;
 }
 
-nav>div {
+nav > div {
   width: 30%;
 }
 
@@ -106,7 +103,7 @@ nav>div {
   align-items: center;
 }
 
-.center-items>div {
+.center-items > div {
   width: 50%;
 }
 
@@ -118,7 +115,7 @@ nav>div {
 
 .btn {
   border-radius: 4px;
-  background: #6288A5;
+  background: #6288a5;
   border: 1px solid #326891;
   color: #fff;
   padding: 8px 9px 6px;
@@ -130,13 +127,13 @@ main {
   margin: auto;
 }
 
-main>section {
+main > section {
   position: relative;
   z-index: 1;
   background-color: white;
 }
 
-section>header div h1 {
+section > header div h1 {
   font-size: 1.3rem;
   font-family: 'Sriracha', cursive;
   margin: 30px;
@@ -145,14 +142,14 @@ section>header div h1 {
 h2 {
   font-size: 19px;
   font-weight: 600;
-  margin: 15px 0
+  margin: 15px 0;
 }
 
-section>header figure>img {
+section > header figure > img {
   width: 800px;
 }
 
-section>header figure {
+section > header figure {
   display: block;
   position: relative;
   left: -100px;
@@ -166,9 +163,9 @@ footer p {
   line-height: 1.5;
 }
 
-figcaption>span {
+figcaption > span {
   font-family: 'Slabo 27px', serif;
-  color: #888888;
+  color: #888;
 }
 
 .author {
@@ -213,17 +210,17 @@ figcaption>span {
   margin-bottom: 20px;
 }
 
-figure>img {
+figure > img {
   width: 920px;
 }
 
-.article-content>figure {
+.article-content > figure {
   display: block;
   position: relative;
   left: -100px;
 }
 
-.article-content>p {
+.article-content > p {
   line-height: 1.5;
   margin-bottom: 15px;
   font-size: 19px;
@@ -277,7 +274,7 @@ figure>img {
 }
 
 #resize-figure p {
-  color: #666666;
+  color: #666;
   font-family: 'EB Garamond', serif;
   font-size: 14px;
 }
@@ -333,7 +330,7 @@ figure>img {
   margin: 40px 0;
 }
 
-.video-container div>p:first-child {
+.video-container div > p:first-child {
   font-size: 1em;
 }
 
@@ -353,7 +350,7 @@ figure>img {
 
 footer a {
   text-decoration: none;
-  color: #999
+  color: #999;
 }
 
 footer p {
@@ -370,7 +367,6 @@ footer p {
 #cosmos-area div {
   padding: 4px;
 }
-
 
 #first-column-cosmos {
   display: grid;
@@ -405,7 +401,6 @@ footer p {
   grid-template-columns: 33% 33% 33%;
   width: 880px;
   height: 350px;
-  /* margin: 0 350px; */
 }
 
 #editors-area div {
@@ -425,7 +420,7 @@ footer p {
   height: 20px;
 }
 
-#space-article{
+#space-article {
   height: 50px;
 }
 
@@ -542,6 +537,7 @@ footer p {
   margin: 0 auto;
   width: 80%;
 }
+
 .page-footer {
   margin: 10px 0 35px;
   display: flex;
@@ -554,7 +550,7 @@ footer p {
   text-align: center;
 }
 
-#border-double{
+#border-double {
   border-bottom: #999;
   border-style: double;
 }
