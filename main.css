@@ -523,7 +523,8 @@ footer p {
 .first-footer {
   margin: 20px;
   border-bottom: 1px solid rgb(235, 235, 235);
-  width: 100%;
+  width: 80%;
+  padding-left: 5%;
 }
 
 .footer-list {
@@ -617,4 +618,7 @@ footer p {
 #border-double {
   border-bottom: #999;
   border-style: double;
+  margin: 0 auto;
+  width: 720px;
+  padding-left: 36%;  
 }
