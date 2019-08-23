@@ -597,24 +597,6 @@ footer p {
   line-height: 11px;
 }
 
-#page-footer-container {
-  /* margin: 0 auto;
-  width: 80%; */
-  position: fixed;
-  display: block;
-  margin: 1em 2em;
-  padding-top: 1.5em;
-  border-top: 1px solid hsla(0, 0%, 90%, 1.00);
-  text-align: center;
-  font-size: 0.5em;
-}
-
-.page-footer {
-  margin: 10px 0 35px;
-  display: flex;
-  justify-content: space-between;
-}
-
 .anchor-footer {
   color: gray;
   font-size: 14px;
@@ -642,10 +624,9 @@ small ul {
   display: flex;
   justify-content: space-around;
   margin: 0 15em;
-  font-family: helvetica;
   color: hsla(116, 0%, 53%, 1.00);
 }
 
-small ul a{
+small ul a {
   color: hsla(116, 0%, 53%, 1.00);
 }
