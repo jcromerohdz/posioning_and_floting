@@ -615,7 +615,7 @@ small {
   display: block;
   margin: 1em 2em;
   padding-top: 1.5em;
-  border-top: 1px solid hsla(0, 0%, 90%, 1.00);
+  border-top: 1px solid lightgray;
   text-align: center;
   font-size: 0.8em;
 }
@@ -624,9 +624,9 @@ small ul {
   display: flex;
   justify-content: space-around;
   margin: 0 15em;
-  color: hsla(116, 0%, 53%, 1.00);
+  color: gray;
 }
 
 small ul a {
-  color: hsla(116, 0%, 53%, 1.00);
+  color: gray;
 }
